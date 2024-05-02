@@ -89,6 +89,7 @@ nav,
     background-color: transparent;
     border: 2px solid rgba(216, 216, 216, 0.829);
     color: white;
+    text-align: left;
 
 }
 
@@ -191,6 +192,8 @@ nav,
 
 .hero .content {
     animation: move4 1s linear forwards;
+    align-items: start;
+
 }
 
 .About .content1 {
@@ -592,6 +595,7 @@ nav,
 
 .list:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .list {
@@ -604,6 +608,12 @@ nav,
     background-color: rgba(255, 255, 255, 0.185);
     border-radius: 50%;
     position: relative;
+}
+
+.twiter:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.322);
+
 }
 
 .twiter i {
@@ -751,6 +761,18 @@ nav,
 
     }
 
+    .hero-img img {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: 140px !important;
+    }
+
+    .feat-img{
+        padding: 0px 50px !important;
+    }
+
+
 }
 
 @media(min-width:769px) {
@@ -776,13 +798,21 @@ nav,
 
     .hero .row img {
         width: 250px;
-        margin-left: 0;
+        margin-left: 70px !important;
+
 
     }
 
     .cards-contact {
         display: block;
     }
+
+    .hero .content {
+        align-items: center;
+    }
+
+
+
 
 
 }
@@ -799,6 +829,7 @@ nav,
     }
 
 
+
 }
 
 @media(max-width:460px) {
@@ -807,10 +838,30 @@ nav,
         margin: 25px 5px;
 
     }
+
     .hero .row img {
         width: 200px;
         animation-play-state: paused;
-    
+        /* margin-left: 70px !important; */
+
+    }
+}
+
+@media(max-width:435px) {
+
+    .hero .row img {
+
+        margin-left: 40px !important;
+
+    }
+}
+
+@media(max-width:370px) {
+
+    .hero .row img {
+
+        margin-left: 30px !important;
+
     }
 }
 
@@ -820,6 +871,25 @@ nav,
         width: 250px;
 
 
+
     }
+
+    .hero .row img {
+
+        margin-left: 20px !important;
+
+    }
+
+
+}
+
+@media(max-width:330px) {
+
+    .hero .row img {
+
+        margin-left: 0px !important;
+
+    }
+
 
 }
