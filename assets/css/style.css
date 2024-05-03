@@ -381,7 +381,7 @@ nav,
 /* slider */
 .slider {
     height: 470px;
-    width: 90%;
+    /* width: 90%; */
     position: relative;
     display: grid;
     place-items: center;
@@ -780,12 +780,7 @@ nav,
     .nav-con{
         text-align: center;
     }
-     .hero .content {
-        text-align: center;
-    }
-     .hero .content button {
-       margin: 0 auto;
-    }
+ 
 
 
 
@@ -823,6 +818,12 @@ nav,
 
     .cards-contact {
         display: block;
+    }
+    .hero .content {
+        text-align: center;
+    }
+     .hero .content button {
+       margin: 0 auto;
     }
 
    
