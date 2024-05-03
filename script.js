@@ -2,7 +2,7 @@ let counts = document.querySelectorAll(".nums .num");
 let section = document.querySelector(".three");
 let started = false;
 window.onscroll = function () {
-    if (window.scrollY >= section.offsetTop) {
+    if (window.scrollY >= section.offsetTop - 200) {
         if (!started) {
             counts.forEach((num) => startCount(num));
         }

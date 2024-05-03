@@ -44,6 +44,13 @@ nav,
     padding: 150px 0px;
 
 }
+.hero-img  {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+       
+    }
+
 
 .hero .row img {
     width: 400px;
@@ -761,12 +768,7 @@ nav,
 
     }
 
-    .hero-img  {
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-        /* margin-left: 140px !important; */
-    }
+  
 
     .feat-img{
         padding: 0px 50px !important;
@@ -778,6 +780,13 @@ nav,
     .nav-con{
         text-align: center;
     }
+     .hero .content {
+        text-align: center;
+    }
+     .hero .content button {
+       margin: 0 auto;
+    }
+
 
 
 
@@ -790,6 +799,7 @@ nav,
         right: 100%;
 
     }
+    
 
 
 
@@ -815,10 +825,7 @@ nav,
         display: block;
     }
 
-    .hero .content {
-        align-items: center;
-    }
-
+   
 
 
 
